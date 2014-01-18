@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/time_to_play_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Pora coś zagrać!"
+        android:textSize="22sp"/>
+
+    <Button
+        android:id="@+id/play_btn"
+        android:layout_below="@+id/time_to_play_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Graj piękny chakierze!"/>
+
+    <!--Tutaj będzie view pager, na razie damy text view -->
+
+    <TextView
+        android:id="@+id/accelerometer_data_tv"
+        android:layout_below="@+id/play_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
+
