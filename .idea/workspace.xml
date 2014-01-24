@@ -76,7 +76,28 @@
     <favorites_list name="Accelerometrotone" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="AccelerometrotoneService.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mobi/braincode/accelerometrotone/service/AccelerometrotoneService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="91" column="5" selection-start="3138" selection-end="3138" vertical-scroll-proportion="0.7009709" vertical-offset="1186" max-vertical-offset="2363">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mobi/braincode/accelerometrotone/ui/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="28" selection-start="2220" selection-end="2220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -142,16 +163,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Accelerometrotone" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Accelerometrotone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Accelerometrotone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -383,7 +394,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5665446" sideWeight="0.7861081" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21245421" sideWeight="0.7861081" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21278942" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1505508" sideWeight="0.7861081" order="3" side_tool="false" content_ui="tabs" x="96" y="96" width="1488" height="858" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21481028" sideWeight="0.7861081" order="2" side_tool="false" content_ui="combo" />
@@ -420,12 +431,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/mobi/braincode/accelerometrotone/service/AccelerometrotoneService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="40" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="2363" />
+        <state line="26" column="40" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="2363">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mobi/braincode/accelerometrotone/ui/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1513" />
+        <state line="18" column="0" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1513">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
@@ -438,12 +455,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mobi/braincode/accelerometrotone/service/AccelerometrotoneService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2329" />
+        <state line="12" column="26" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2329">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mobi/braincode/accelerometrotone/ui/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="5" selection-start="2553" selection-end="2553" vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="1513" />
+        <state line="68" column="5" selection-start="2553" selection-end="2553" vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="1513">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
@@ -571,14 +594,20 @@
         <state line="30" column="43" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="680" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mobi/braincode/accelerometrotone/service/AccelerometrotoneService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="13" selection-start="2183" selection-end="2183" vertical-scroll-proportion="1.3203883" vertical-offset="442" max-vertical-offset="2363" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mobi/braincode/accelerometrotone/ui/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="603" selection-end="603" vertical-scroll-proportion="-0.4621359" vertical-offset="306" max-vertical-offset="1224" />
+        <state line="56" column="28" selection-start="2220" selection-end="2220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobi/braincode/accelerometrotone/service/AccelerometrotoneService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="5" selection-start="3138" selection-end="3138" vertical-scroll-proportion="0.7009709" vertical-offset="1186" max-vertical-offset="2363">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
