@@ -23,10 +23,8 @@ public class Main extends ActionBarActivity {
     private TextView accelerometerDataTv;
     private Button playBtn;
 
-
     private SensorManager sensorManager;
     private Sensor accelerometer;
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -43,8 +41,10 @@ public class Main extends ActionBarActivity {
 
                 if (!isAccelerometrotoneServiceRunning()) {
                     startService(new Intent(Main.this, AccelerometrotoneService.class));
+                    playBtn.setText("I sobie gram...");
                 } else {
                     stopService(new Intent(Main.this, AccelerometrotoneService.class));
+                    playBtn.setText("Graj piękny chakierze!");
                 }
             }
         });
@@ -79,6 +79,5 @@ public class Main extends ActionBarActivity {
         super.onPause();
 
     }
-
 
 }

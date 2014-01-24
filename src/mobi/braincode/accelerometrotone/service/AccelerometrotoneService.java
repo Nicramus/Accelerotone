@@ -6,6 +6,10 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.media.AudioFormat;
+import android.media.AudioManager;
+import android.media.AudioTrack;
+import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.IBinder;
 import android.util.Log;
@@ -22,24 +26,17 @@ public class AccelerometrotoneService extends Service implements SensorEventList
 
     private SensorManager sensorManager;
     private Sensor sensor;
-    private float os;
+    private float accelerometerRawData;
 
-    //for sound play
-    private final int duration = 3; //sekundy
-    private final int sampleRate = 8000; //częstotliwość próbkowania
-    private final int numSamples = duration * sampleRate; //dlugosc
-    private final double sample[] = new double[numSamples]; //dzwięk (całość)
-    private final double frequencyOfTone = 440; //hz
+    private AudioTrack audioTrack;
+    private AudioSynthesisTask audioSynthTask;
 
-    private final byte generatedSnd[] = new byte[2 * numSamples];
-
-    Handler handler = new Handler();
-
-
-
+    private Intent intent;
 
     //wywoływane za każdym razem gdy system wywołuje startService(Intent), nie wywołuj bezpośrednio
     //w zaleznosci od argumentów- uzyj odpowiedniego sensora
+
+    //trzeba też użyć WakeLocka!
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
@@ -48,9 +45,11 @@ public class AccelerometrotoneService extends Service implements SensorEventList
         sensor = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
 
         sensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_NORMAL);
-        intent.setAction(DATA_ACTION);
-        intent.putExtra("DATA_FLOAT_KEY", os);
-        sendBroadcast(intent);
+
+        audioSynthTask = new AudioSynthesisTask();
+        audioSynthTask.execute();
+
+        Log.d(ACCELEROMETROTRONE_LOG, String.valueOf(accelerometerRawData));
 
         return START_STICKY;
     }
@@ -59,6 +58,10 @@ public class AccelerometrotoneService extends Service implements SensorEventList
     public void onDestroy() {
         super.onDestroy();
         sensorManager.unregisterListener(this, sensor);
+        boolean ccc = true;
+        audioSynthTask.cancel(ccc);
+        audioTrack.stop();
+        audioTrack.flush();
     }
 
     @Override
@@ -70,9 +73,7 @@ public class AccelerometrotoneService extends Service implements SensorEventList
     @Override
     public void onSensorChanged(SensorEvent sensorEvent) {
         float alpha = (float) 0.8;
-        os = sensorEvent.values[0];
-
-        Log.d(ACCELEROMETROTRONE_LOG, String.valueOf(os));
+        accelerometerRawData = sensorEvent.values[0];
 
         //pobranie siły grawitcji
         float[] gravity = new float[3];
@@ -85,36 +86,48 @@ public class AccelerometrotoneService extends Service implements SensorEventList
         linearAcceleration[0] = sensorEvent.values[0] - gravity[0];
         linearAcceleration[1] = sensorEvent.values[1] - gravity[1];
         linearAcceleration[2] = sensorEvent.values[2] - gravity[2];
-
     }
 
-    //działa gdy zmienia się dokładność sensora
     @Override
-    public void onAccuracyChanged(Sensor sensor, int i) {  }
+    public void onAccuracyChanged(Sensor sensor, int i) { }
 
-    //TODO generowanie dzwięku, na wejsciu powinny być dane z sensora
-    private void genTone() {
-        for (int i = 0; i < numSamples; ++i) {
-           // sample[i]
-        }
-    }
+    private class AudioSynthesisTask extends AsyncTask<Void, Void, Void> {
+        private int baseFrequency = 440;
 
-    private void playSound() {
-
-    }
-
-    /*public class DataSenderThread extends Thread {
         @Override
-        public  void run() {
-            try {
-                while (true) {
-                    Intent intent = new Intent();
-                    intent.setAction(DATA_ACTION);
-                    intent.putExtra("DATAPASSED", i);
+        protected void onPreExecute() {
+            intent = new Intent();
+            intent.setAction(DATA_ACTION);
+            //przesyłam dane z sensora do broadcast recivera w main activity
+            intent.putExtra(EXTRAS_KEY, accelerometerRawData);
+        }
+
+
+        @Override
+        protected Void doInBackground(Void... params) {
+            final int SAMPLE_RATE = 11025;
+            int minSize = AudioTrack.getMinBufferSize(SAMPLE_RATE,
+                    AudioFormat.CHANNEL_CONFIGURATION_MONO,
+                    AudioFormat.ENCODING_PCM_16BIT);
+            audioTrack = new AudioTrack(AudioManager.STREAM_MUSIC,
+                    SAMPLE_RATE, AudioFormat.CHANNEL_CONFIGURATION_MONO,
+                    AudioFormat.ENCODING_PCM_16BIT, minSize,
+                    AudioTrack.MODE_STREAM);
+            audioTrack.play();
+            short[] buffer = new short[minSize];
+            float angle = 0;
+            while (true) {
+
+                for (int i = 0; i < buffer.length; i++) {
+                    float angular_frequency = (float) (2 * Math.PI) * (440 + accelerometerRawData*10);
+                    sendBroadcast(intent);
+                    buffer[i] = (short) (Short.MAX_VALUE * ((float) Math.sin(angle)));
+                    angle += angular_frequency;
                 }
-            }catch (InterruptedException e) {
-                e.printStackTrace();
+                audioTrack.write(buffer, 0, buffer.length);
+
             }
         }
-    }*/
+    }
 }
+
