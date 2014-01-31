@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Accelerometrotone.iml" filepath="$PROJECT_DIR$/Accelerometrotone.iml" />
-      <module fileurl="file://C:/Program Files (x86)/Android/android-sdk/extras/android/support/v7/appcompat/android-support-v7-appcompat.iml" filepath="C:/Program Files (x86)/Android/android-sdk/extras/android/support/v7/appcompat/android-support-v7-appcompat.iml" />
+      <module fileurl="file://$ANDROID_SDK_DIR$/sdk/extras/android/support/v7/appcompat/bin/android-support-v7-appcompat.iml" filepath="$ANDROID_SDK_DIR$/sdk/extras/android/support/v7/appcompat/bin/android-support-v7-appcompat.iml" />
     </modules>
   </component>
 </project>

@@ -76,28 +76,7 @@
     <favorites_list name="Accelerometrotone" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AccelerometrotoneService.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/mobi/braincode/accelerometrotone/service/AccelerometrotoneService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="5" selection-start="3138" selection-end="3138" vertical-scroll-proportion="0.7009709" vertical-offset="1186" max-vertical-offset="2363">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mobi/braincode/accelerometrotone/ui/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="28" selection-start="2220" selection-end="2220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -124,10 +103,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="1688" />
-    <option name="height" value="1058" />
+    <option name="x" value="55" />
+    <option name="y" value="24" />
+    <option name="width" value="1865" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -155,8 +134,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -165,8 +142,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Accelerometrotone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Accelerotone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,13 +166,13 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$ANDROID_SDK_DIR$/sdk/extras/android/support/v7/appcompat" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="options.lastSelected" value="MavenSettings" />
+    <property name="options.lastSelected" value="preferences.pathVariables" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -374,7 +363,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1688" height="1058" extended-state="6" />
+    <frame x="55" y="24" width="1865" height="1176" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6703418" order="7" side_tool="false" content_ui="tabs" />
@@ -388,13 +377,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40264025" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3095668" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40252706" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.5468578" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21245421" sideWeight="0.7861081" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21072386" sideWeight="0.7861081" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21278942" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1505508" sideWeight="0.7861081" order="3" side_tool="false" content_ui="tabs" x="96" y="96" width="1488" height="858" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21481028" sideWeight="0.7861081" order="2" side_tool="false" content_ui="combo" />
@@ -403,7 +393,6 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26772615" sideWeight="0.7861081" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1356119" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24366042" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45644984" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -429,6 +418,38 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/mobi/braincode/accelerometrotone/service/AccelerometrotoneService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="5" selection-start="3138" selection-end="3138" vertical-scroll-proportion="0.0" vertical-offset="1029" max-vertical-offset="2085">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobi/braincode/accelerometrotone/ui/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="28" selection-start="2220" selection-end="2220" vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="1335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobi/braincode/accelerometrotone/service/AccelerometrotoneService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="5" selection-start="3138" selection-end="3138" vertical-scroll-proportion="0.0" vertical-offset="1365" max-vertical-offset="2085">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobi/braincode/accelerometrotone/ui/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="28" selection-start="2220" selection-end="2220" vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="1335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mobi/braincode/accelerometrotone/service/AccelerometrotoneService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="40" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="2363">
@@ -500,55 +521,6 @@
         <state line="6" column="1" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
       </provider>
     </entry>
-    <entry file="file://C:/Program Files (x86)/Android/android-sdk/extras/android/support/v7/appcompat/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="38" selection-start="827" selection-end="827" vertical-scroll-proportion="0.43987823" vertical-offset="0" max-vertical-offset="657">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Android/android-sdk/extras/android/support/v7/appcompat/res/values-v14/styles_base.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="923" selection-end="923" vertical-scroll-proportion="-8.4" vertical-offset="181" max-vertical-offset="3978">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Android/android-sdk/extras/android/support/v7/appcompat/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Android/android-sdk/extras/android/support/v7/appcompat/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Android/android-sdk/extras/android/support/v7/appcompat/android-support-v7-appcompat.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Android/android-sdk/extras/android/support/v7/appcompat/appcompat.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Android/android-sdk/extras/android/support/v7/appcompat/appcompat1.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Android/android-sdk/extras/android/support/v7/appcompat/project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="20" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Android/android-sdk/extras/android/support/v7/appcompat/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="21" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408" />
@@ -574,11 +546,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Accelerometrotone.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0331384" vertical-offset="0" max-vertical-offset="513" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="94" selection-start="877" selection-end="877" vertical-scroll-proportion="0.5302144" vertical-offset="0" max-vertical-offset="513">
@@ -594,19 +561,40 @@
         <state line="30" column="43" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="680" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mobi/braincode/accelerometrotone/ui/Main.java">
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="28" selection-start="2220" selection-end="2220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="35" selection-start="225" selection-end="225" vertical-scroll-proportion="-1.1076345" vertical-offset="990" max-vertical-offset="10515">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Accelerometrotone.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="75" selection-start="984" selection-end="984" vertical-scroll-proportion="0.35098523" vertical-offset="0" max-vertical-offset="812">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mobi/braincode/accelerometrotone/service/AccelerometrotoneService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="5" selection-start="3138" selection-end="3138" vertical-scroll-proportion="0.7009709" vertical-offset="1186" max-vertical-offset="2363">
+        <state line="91" column="5" selection-start="3138" selection-end="3138" vertical-scroll-proportion="0.44458127" vertical-offset="1004" max-vertical-offset="2085">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobi/braincode/accelerometrotone/ui/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="28" selection-start="2220" selection-end="2220" vertical-scroll-proportion="0.3903941" vertical-offset="268" max-vertical-offset="1080">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -650,7 +638,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>Android API 19 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
